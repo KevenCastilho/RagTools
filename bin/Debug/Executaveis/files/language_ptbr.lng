@@ -1,0 +1,189 @@
+;//||||||||||||||||||||||||||||||||||||||||||||||\\;
+;//|	   eAthena Monster Database Editor	|\\;
+;//|	      Copyright by Jukka, 2006		|\\;
+;//|						|\\;
+;//|		   Language File		|\\;
+;//|						|\\;
+;//||||||||||||||||||||||||||||||||||||||||||||||\\;
+
+
+;//||||||||||||||||||||||||||||||||||||||||||||||\\;
+;//| 	   Infos about the language file 	|\\;
+;//||||||||||||||||||||||||||||||||||||||||||||||\\;
+[Info]
+
+Language=PORTUGUES
+lang=PTBR
+Translator=RagnaBot Equipe
+
+version=2.0.0
+
+;//||||||||||||||||||||||||||||||||||||||||||||||\\;
+;//| 	  	       Interface 		|\\;
+;//||||||||||||||||||||||||||||||||||||||||||||||\\;
+[Interface]
+openmobdb=Load Database
+newmob=Novo Mob
+delmob=Excluir Mob
+searchid=Busca por ID
+searchname=Busca por Nome
+searchname2=Nova Busca
+nextsearch=Buscar
+nameinput=Nome
+apply=Aplicar
+save=Salvar
+
+Tab1=Geral
+Tab2=Propriedades
+Tab3=Tipo
+Tab4=Drops && Chances
+
+;//|||||||||||||||||||| Tab #1 ||||||||||||||||||\\;
+inactivchk=Deactivated
+id=ID
+name=Nome
+name2=iRO Nome
+sprite=Nome da Sprite
+
+;//|||||||||||||||||||| Tab #2 ||||||||||||||||||\\;
+level=Nível
+exp=Experiência
+jexp=Experiência Job
+mexp=Experiência MVP
+mvpchk=MVP
+HP=HP
+SP=SP
+atk1=Ataque1
+atk2=Ataque2
+def=Defesa
+mdef=Defesa Mágica
+STR=FOR
+AGI=AGI
+VIT=VIT
+INT=INT
+LUK=SOR
+DEX=DES
+speed=Velocid. Mov.
+
+size=Tamanho
+size1=Pequeno
+Size2=Medio
+Size3=Grande
+
+adelay=Tempo de ataque (em milissegundos)
+amotion=Animação de Ataque
+dmotion=Delay
+
+Mobinfo=Informações
+aspd=Velocid. Atk.
+flee=Flee
+hit=Hit
+
+;//|||||||||||||||||||| Tab #3 ||||||||||||||||||\\;
+element=Elemento
+element1=Neutro
+element2=Água
+element3=Terra
+element4=Fogo
+element5=Wind
+element6=Poison
+element7=Holy
+element8=Dark
+element9=Fantasma
+element0=Undead
+elelevel1=Nível 1
+elelevel2=Nível 2
+elelevel3=Nível 3
+elelevel4=Nível 4
+
+Range1=Ataquerange
+Range2=Sightrange
+Range3=Hunting Range
+
+Race=Raça
+Race1=Shapeless
+Race2=Undead
+Race3=Animal
+Race4=Planta
+Race5=Inseto
+Race6=Peixe
+Race7=Damônio
+Race8=Humanóide
+Race9=Anjo
+Race0=Dragão
+
+moveable=Moveable
+looter=Looter
+aggressively=Agressivo
+supporter=Supporter
+detectcast=Detect Cast
+boss=Boss
+plant=Planta
+canattack=Can Attack
+seehide=Detecta Players invisíveis
+changetraged=Changes Target
+angry=Angry
+
+;//|||||||||||||||||||| Tab #4 ||||||||||||||||||\\;
+itemid=Item ID
+cardid=Carta ID
+mvpid=MVP Item
+percent=Percentagem
+mexpper=EXP Chance MVP
+hint=Dropchance: (Chance*0,01)*Rates
+unknownitem=Item Desconhecido
+unknowncrad=Card Desconhecida
+
+
+;//||||||||||||||||||||||||||||||||||||||||||||||\\;
+;//| 	  	     Mainlanguage 		|\\;
+;//||||||||||||||||||||||||||||||||||||||||||||||\\;
+[Language]
+dberror=Erro ao abrir database!
+
+mobsaverequest=O mod foi modificado. deseja salvar alterações?
+
+monsternotfound=Mob não encontrado!
+nomoremobfound=Não há mais mobs!
+
+IDinput=Buscar Monstro com ID
+IDinputtext=Coloque o ID, por favor!
+invaildid=Este ID não existe na Database!
+idnotfound=Mob ID não encontrado.
+
+Dbsaved=A Database foi salva com sucesso!!
+
+
+
+;//||||||||||||||||||||||||||||||||||||||||||||||\\;
+;//| 	   	 Language for history 		|\\;
+;//|    %s = a string (e.g. to show the time)	|\\;
+;//|        %d = a integer, shows an number	|\\;
+;//|       %6.5f = float with 6 places and	|\\;
+;//|		   5 behind places		|\\;
+;//||||||||||||||||||||||||||||||||||||||||||||||\\;
+[History]
+
+itemdberror=[%s] Itemnametable não pode ser aberto. Impossível mostrar o nome dos itens!
+customitemdberror=[%s] Custom Itemnametable pode ser aberto. Impossível mostrar o nome dos itens customs!
+
+editorstarted=[%s] Editor de Monstros iniciado em %.5f segundos
+dbopenerror=[%s] Erro ao abrir database
+
+mobsloaded=[%s] %d Monstros carregados em %.5f segundos (%d Entradas)
+dbsaved=[%s] %d Monstros salvos em %.5f segundos (%d Entradas)
+
+mobfound=[%s] Mob de nome "%s" não foi encontrado.
+nextmobfound=[%s] Nenhum Mobs com o nome "%s" foi encontrado.
+mobnotfound=[%s] Nenhum Mobs com o nome "%s" were found.
+invaildid=[%s] Número não foi inserido!
+
+;//| IMPORTANT: Here: the Mob ID is %s !!! //////////////////////////////|
+idnotfound=[%s] Mob ID %s não encontrado
+idfound=[%s] Mob %s found. Jumped to %s
+;//|/////////////////////////////////////////////////////////////////////|
+
+addmob=[%s] Adicionar Mob
+delmob=[%s] Mob com ID %d foi deletado.
+savemob=[%s] Mob ID %d foi alterado.
+notsavemob=[%s] Não foi possível salvar o mod de ID %d

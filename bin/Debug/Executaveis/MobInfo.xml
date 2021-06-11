@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<node>
+  <ID />
+  <Sprite_Name />
+  <kROName />
+  <iROName />
+  <LV />
+  <HP />
+  <SP />
+  <EXP />
+  <JEXP />
+  <Range1  Melee-1='1' Melee-2='2' Range-3='3' Range-4='4' Range-5='5' Range-6='6' Range-7='7' Range-8='8' Range-9='9' Range-10='10' Range-11='11' Range-12='12' Range-13='13' Range-14='14' Range-15='15' Range-16='16' Range-17='17' Range-18='18' Range-19='19' Range-20='20' />
+  <ATK1 />
+  <ATK2 />
+  <DEF />
+  <MDEF />
+  <STR />
+  <AGI />
+  <VIT />
+  <INT />
+  <DEX />
+  <LUK />
+  <Range2 Melee-1='1' Melee-2='2' Range-3='3' Range-4='4' Range-5='5' Range-6='6' Range-7='7' Range-8='8' Range-9='9' Range-10='10' Range-11='11' Range-12='12' Range-13='13' Range-14='14' Range-15='15' Range-16='16' Range-17='17' Range-18='18' Range-19='19' Range-20='20' />
+  <Range3 Melee-1='1' Melee-2='2' Range-3='3' Range-4='4' Range-5='5' Range-6='6' Range-7='7' Range-8='8' Range-9='9' Range-10='10' Range-11='11' Range-12='12' Range-13='13' Range-14='14' Range-15='15' Range-16='16' Range-17='17' Range-18='18' Range-19='19' Range-20='20' />
+  <Scale Small='0' Medium='1' Large='2'/>
+  <Race Formless='0' Undead='1' Animal='2' Plant='3' Insect='4' Fish='5' Demon='6' DemiHuman='7' Angle='8' Dragon='9' />
+  <Element Neutral-LV1='20' Neutral-LV2='40' Neutral-LV3='60' Neutral-LV4='80' Water-LV1='21' Water-LV2='41' Water-LV3='61' Water-LV4='81' Earth-LV1='22' Earth-LV2='42' Earth-LV3='62' Earth-LV4='82' Fire-LV1='23' Fire-LV2='43' Fire-LV3='63' Fire-LV4='83' Wind-LV1='24' Wind-LV2='44' Wind-LV3='64' Wind-LV4='84' Poison-LV1='25' Poison-LV2='45' Poison-LV3='65' Poison-LV4='85' Holy-LV1='26' Holy-LV2='46' Holy-LV3='66' Holy-LV4='86' Shadow-LV1='27' Shadow-LV2='47' Shadow-LV3='67' Shadow-LV4='87' Ghost-LV1='28' Ghost-LV2='48' Ghost-LV3='68' Ghost-LV4='88' Undead-LV1='29' Undead-LV2='49' Undead-LV3='69' Undead-LV4='89' />
+  <Mode Plant='64' ImmobileBeingPassive='128' Normal='129' Looter='131' ImmobileBeingAttacker='132' Aggressive='133' Supportive='137' SupportiveAndLooter='139' AggressiveAndSupportive='141' Detectors='145' AggressiveAndDetectors='149' BossAndLooter='171' Boss='181'/>
+  <Speed />
+  <aDelay />
+  <aMotion />
+  <dMotion />
+  <MEXP />
+  <ExpPer />
+  <MVP1id />
+  <MVP1per />
+  <MVP2id />
+  <MVP2per />
+  <MVP3id />
+  <MVP3per />
+  <Drop1id />
+  <Drop1per />
+  <Drop2id />
+  <Drop2per />
+  <Drop3id />
+  <Drop3per />
+  <Drop4id />
+  <Drop4per />
+  <Drop5id />
+  <Drop5per />
+  <Drop6id />
+  <Drop6per />
+  <Drop7id />
+  <Drop7per />
+  <Drop8id />
+  <Drop8per />
+  <Drop9id />
+  <Drop9per />
+  <DropCardid />
+  <DropCardper />
+</node>

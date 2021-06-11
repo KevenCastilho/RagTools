@@ -1,0 +1,15 @@
+Monster Database Editor  Changelog
+
+I write all edits on my editor down, Added, fixed and removed features.
+~Jukka
+
+
+~ 1.1.2 Beta
+-> Fixed: some typing errors
+-> Added: "Mobinfos" under "Mob Property"
+-> Fixed: Change-ID-Bug
+-> Fixed: Element Bug
+-> Added: Language changer
+
+~ 1.0.1 Beta
+-> First internation release
